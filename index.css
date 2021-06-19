@@ -27,18 +27,20 @@ div.desc {
 
 body{
   background-image: url('./background.jpeg');
-  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1{
   color:#ccc;
   text-align: center;  
 }
+
 h2{
   color: #ccc;
   text-align: left;
 }
-
 
 .responsive {
   padding: 6px 6px;
